@@ -1,1 +1,51 @@
 // Your footer style
+.footer {
+  right: 0;
+  bottom: 0px !important;
+  left: 0;
+  box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: #C2413B;
+  transition: all 0.3s ease;
+  display: flex;
+  height: 70px;
+  padding: 0px 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  color: white;
+  p {
+    text-color: white;
+    margin-bottom: 0px
+  }
+}
+
+.fa {
+  margin: 5px;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-youtube {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    p {
+      font-size: 13px;
+    }
+  }
+}

@@ -150,7 +150,11 @@ a:hover {
  * ------------------------------------- */
 
 .wrapper {
-  background: #EDEDED;
+  background: #F3F5F5;
+}
+
+.wrapper2 {
+  background: #F3F5F5;
 }
 
 .form-control {
@@ -193,6 +197,11 @@ a:hover {
 }
 .avatarhome {
   width: 100px;
+}
+
+.avatarhomeraddius{
+  width: 100px;
+  border-radius: 50px;
 }
 
 .avatarhome:hover {
