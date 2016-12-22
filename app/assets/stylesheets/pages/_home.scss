@@ -1,6 +1,9 @@
 .home-body {
   height: 100vh;
 }
+h3, .h3 {
+    font-size: 18px;
+}
 
 .banner {
   color: white;
@@ -135,7 +138,136 @@ a:hover {
     margin-top: 10px;
     font-size: 18px;
   }
-}/* -------------------------------------
+}
+
+/* -------------------------------------
+ * CSS code specific to home page
+ * (margin/padding adjustments)
+ * ------------------------------------- */
+/* -------------------------------------
+ * CSS code specific to home page
+ * (margin/padding adjustments)
+ * ------------------------------------- */
+
+.wrapper {
+  background: #EDEDED;
+}
+
+.form-control {
+  color: black;
+}
+
+.banner {
+  h1 {
+    padding-top: 1em;
+  };
+  h3 {
+    padding: 1em 0 2em 0;
+  }
+}
+
+.mostpopular {
+
+  h2 {
+    padding-bottom: 1.5em;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+#see-bets-btn {
+  margin-top: 50px;
+}
+
+.process h2 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 72px;
+    margin-top: -20px;
+    font-size: 25px;
+  h3 {
+    font-size: 18px;
+    color: gray;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+}
+.avatarhome {
+  width: 100px;
+}
+
+.avatarhome:hover {
+  opacity: 3px;
+}
+
+.circle1 {
+  display: inline-block;
+  width: 34px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 16px;
+  background-color: #C2413B;
+  color: white;
+  // font-family: $special-font;
+  line-height: 1.4;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 48px;
+}
+
+.circle2 {
+  display: inline-block;
+  width: 34px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 16px;
+  background-color: #C2413B;
+  color: white;
+  // font-family: $special-font;
+  line-height: 1.4;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 48px;
+}
+.circle3 {
+  display: inline-block;
+  width: 34px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 16px;
+  background-color: #C2413B;
+  color: white;
+  // font-family: $special-font;
+  line-height: 1.4;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 29px;
+}
+.circle4 {
+  display: inline-block;
+  width: 34px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 16px;
+  background-color: #C2413B;
+  color: white;
+  // font-family: $special-font;
+  line-height: 1.4;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 48px;
+}
+
+
+
+/* -------------------------------------
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
