@@ -5,10 +5,29 @@ h3, .h3 {
     font-size: 18px;
 }
 
+.btn-treehouse {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #C2413B;
+}
+
 .banner {
   color: white;
   text-align: center;
   height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.bannerindex {
+  color: white;
+  text-align: center;
+  height: 400px;
   background-size: cover !important;
   display: flex;
   align-items: center;

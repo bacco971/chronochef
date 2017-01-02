@@ -1,1 +1,37 @@
 @import "home";
+
+  .restaurants__tool-box {
+    margin: 0;
+    position: absolute;
+    top: 500px;
+    z-index: 1;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1008px;
+    display: flex;
+    box-pack: justify;
+    justify-content: space-between;
+    box-align: center;
+    align-items: center;
+}
+
+.restaurants__search-filter {
+    padding-right: 0;
+    position: relative;
+    padding-right: 16px;
+    flex: 0 0 auto;
+    display: flex;
+    box-pack: justify;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+
+.restaurants__location__title {
+    position: relative;
+    padding: 0 0 0 383px;
+    overflow: hidden;
+    flex: 1 1 auto;
+    margin-bottom: -16px;
+    font-size: 14px;
+}
+
